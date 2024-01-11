@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    color: black;
+}
+body{
+    background-color: rgb(191, 207, 207);
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    height: 100vh;
+}
+article{
+    width: 25%;
+    height: 100vh;
+    background-color: aqua;
+}
+article li{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    width: 80%;
+    color: blue;
+    background-color: ;
+}

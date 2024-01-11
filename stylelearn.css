@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    color: black;
+    /* text-align: center; */
+
+}
+body{
+    background-color: rgb(155, 155, 175);
+
+}
+section{
+display: flex;
+flex-direction: column;
+/* justify-content: center; */
+    align-items: center;
+    text-align: center;
+/* align-items: center; */
+width: 80%;
+height: 100vh;
+/* margin-top: 50px; */
+background-color: rgb(230, 230, 243);
+
+}
+article{
+    margin-bottom: 50px;
+    /* margin-top: 20px; */
+    width: 20%;
+    height: 100vh;
+    background-color: rgb(126, 126, 206);
+}
+a,li{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+h1{
+    width: 100%;;
+    align-items: center;
+    /* padding: 5px; */
+    text-align: center;
+    color: white;
+}
+
+
+
+.Program{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 100px 100px 0px 100px;
+    gap: 25px;
+
+
+}
+article li{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    /* margin-left: 30px; */
+}
+#dasher{
+    /* background-color: black; */
+}
+.programming{
+    padding: 40px 70px 40px 70px;
+    box-shadow: 2px 3px 2px 3px  rgb(126, 126, 206);
+    border-radius: 10px;
+
+}
+li:hover{
+    background-color: aliceblue;
+    margin-left: 3px;
+    padding: 2px;
+}
+li:hover a{
+    color: black;
+
+}
+li a:hover{
+    background-color: aliceblue;
+    width: 100%;
+}
+.programming:hover{
+    background-color: aliceblue;
+    color: red;
+
+
+    
+
+}
